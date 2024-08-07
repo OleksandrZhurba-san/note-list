@@ -1,0 +1,17 @@
+.note_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 90%;
+  background-color: #badfef;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+.note_text {
+  max-width: 80%;
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: start;
+}
